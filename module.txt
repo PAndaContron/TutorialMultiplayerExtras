@@ -1,0 +1,9 @@
+{
+    "id" : "TutorialMultiplayerExtras",
+    "version" : "0.1.0-SNAPSHOT",
+    "author" : "",
+    "displayName" : "TutorialMultiplayerExtras",
+    "description" : "",
+    "dependencies" : [],
+    "serverSideOnly" : false
+}
