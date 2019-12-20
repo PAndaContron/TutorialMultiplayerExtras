@@ -1,0 +1,1 @@
+This repository contains information on using Terasology's ECS in multiplayer. The module contains code for an entity called `SampleEntity` which can be spawned with the `spawnPrefab` command. Interacting with it with `E` should produce a message in the in-game console. For more information, see the wiki.
