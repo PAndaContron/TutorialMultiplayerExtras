@@ -16,16 +16,21 @@
 
 package org.terasology.tutorialMultiplayerExtras.components;
 
-import org.terasology.engine.entitySystem.Component;
 import org.terasology.engine.network.Replicate;
+import org.terasology.gestalt.entitysystem.component.Component;
 
 /**
  * Holds a replicated message string
  */
-public class NetComponent implements Component {
+public class NetComponent implements Component<NetComponent> {
     /**
      * Message to print out
      */
     @Replicate
     public String message;
+
+    @Override
+    public void copyFrom(NetComponent other) {
+        this.message = other.message;
+    }
 }
