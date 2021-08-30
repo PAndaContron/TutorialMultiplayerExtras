@@ -16,8 +16,8 @@
 
 package org.terasology.tutorialMultiplayerExtras.events;
 
-import org.terasology.entitySystem.event.Event;
-import org.terasology.network.ServerEvent;
+import org.terasology.engine.entitySystem.event.Event;
+import org.terasology.engine.network.ServerEvent;
 
 /**
  * Event sent on the server to print something in the console
